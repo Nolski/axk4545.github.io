@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Aidan's Web 1 Home Page</title>
+        <link rel="stylesheet" media="screen" href="style.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+        <script>
+            function change(id, img){
+            //console.log("The id is " + id + ", and the image is " + img + ".");
+            document.getElementById(id).src=img;}
+        </script>
+    </head>
+    <body>
+        <header>
+    
+	Current Date: July 30, 2017  |   Server IP: 129.21.1.44    |   Your IP: 73.9.7.159
+</header>
+        <h1>Aidan's Web 1 Home Page</h1>
+        <img id="banner" src="media/banner.png" alt="banner"/>
+        <div id="photo">
+            <img src="media/linux.jpg" alt="Tux the Linux penguin">
+            <p id="tux">Tux the Linux Penguin</p>
+        </div>
+        <h2>Links to my Web 1 projects</h2>
+        <!--inner bevel up/down-->
+            <a href="proj1/index.html"><img id="1" src="media/proj1.png" alt="Project 1" 
+            onmouseover="change(this.id, 'media/proj1-down.png');"
+            onmouseout="change(this.id, 'media/proj1.png');"/>
+            </a><br>
+            <a href="proj2/index.html"><img id="2" src="media/proj2.png" alt="Project 2" 
+            onmouseover="change(this.id, 'media/proj2-down.png');"
+            onmouseout="change(this.id, 'media/proj2.png');"/>
+            </a><br>
+            <a href="proj3/index.html"><img id="3" src="media/proj3.png" alt="Project 3" 
+            onmouseover="change(this.id, 'media/proj3-down.png');"
+            onmouseout="change(this.id, 'media/proj3.png');"/></a><br>
+        <h2>About Me</h2>
+            <p>I am a student in the Networking and Systems Administration program at
+            Rochester Institute of Technology. I have a very strong and passionate
+            interest in Linux and the free and open source software community.
+            I have been using varying distributions of Linux for roughly 6 years.
+            I am currently using Red Hat based Fedora Linux as a primary OS and CentOS 7
+            as a secondary operating system.</p>
+
+            <p>I took this course to improve my skills in web development. Post graduation, I hope to have
+            a rewarding career as a Linux and Windows system administrator at a company
+            yet to be determined.</p>
+
+        <h2>Some of my Favorite Web Sites:</h2>
+            <ol>
+                <li><a href="http://www.fedoraproject.org">Fedora</a></li>
+                <li><a href="http://www.kernel.org">The Linux Kernel Archives</a></li>
+                <li><a href="http://www.github.com">GitHub · Where software is built</a></li>
+            </ol>
+            <a href="pages/favorites.html">My Favorite Things</a>   |
+            <a href="other.html">Some Other Page</a>    |
+            <a href="homework/recipe1.html">Kayadif Recipe</a>  |
+            <a href="homework/recipe2.html">Kayadif Recipe 2(with CSS)</a>  |
+            <a href="homework/cssp.html">CSS Positioning</a>  |
+            <a href="homework/page1.html">CSS 3</a> |
+            <a href="homework/horiz.html">Navigation</a> |
+            <a href="darth/darth.html">Darth responsive site</a>    |
+            <a href="homework/SSI_startup.shtml">SSI Demo</a> |
+        <div id="footer">
+            <footer>
+    &copy;  Aidan Kahrs
+</footer>
+        </div>
+    </body>
+</html>

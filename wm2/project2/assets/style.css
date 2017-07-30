@@ -1,0 +1,113 @@
+*{box-sizing: border-box;}
+
+h1{text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color:#52B3DE;}
+
+
+#menu{display: inline-block;
+    width:100%;
+    height: 3em;
+    }
+body{padding: 0;
+    margin: 2% 5%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12pt;
+    background-color: #fbecd0;
+    }
+
+/*Navigation Bar Styling */
+nav{background-color: #ff0000;
+    border: 1px solid #ffffff;}
+    
+nav ul li a.current{text-decoration: underline;}
+
+nav li a:visited {
+    color: #07597c;}
+nav li a:hover {
+    color: #ffffff;
+    background-color: #000000;}
+
+nav ul{
+    width: 90%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    display: none;
+	position: absolute;
+	z-index: 5;
+    }
+
+nav ul li{display: block;
+        color: black;
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 5px 0;
+    }
+nav ul li a{
+        padding: 8px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #07597c;}
+
+img{width: 100%;}
+
+a{text-decoration: none;}
+
+.history{list-style-type: none;
+        padding: 0;
+    }
+    
+.history li{margin: 15px 0;
+        line-height: 150%;
+}
+
+
+/*change line spacing*/
+.content{line-height: 150%;}
+
+/*class to right align images*/
+.right{float: right;}
+
+/*styling for figure elements for captioned images*/
+figure{display: table;}
+figcaption{display: table-caption;
+    caption-side: bottom;}
+    
+/*styling for title on bibliography page*/
+#bib-title{text-align: center;}
+
+/*class for centering images*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+/*class for aligning images in a gallery format*/
+.gallery{margin: 5px;
+    border: 1px solid #ccc;
+    float: left;}
+
+/*class for aligning images in a gallery format two images across*/
+.gallery-two{margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%}
+    
+/*footer styling*/
+footer{text-align: center;
+    font-size: 10pt;
+    clear: both;
+    margin-top: 20px;}
+
+#home{width: 50px; height: 57px;
+    display: block;
+    margin: auto;}
+
+

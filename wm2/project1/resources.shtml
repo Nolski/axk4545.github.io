@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Aidan's Unofficial Chicago Site - Other Resources About the City of Chicago</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+  <meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8"/>
+  <script src="assets/nav.js"></script>
+</head>
+<body>
+  <nav>
+    <ul id="nav">
+        <li><a href="index.shtml">About</a></li>
+        <li><a href="history.shtml">History</a></li>
+        <li><a href="government.shtml">Government</a></li>
+        <li><a href="geography.shtml">Geography</a></li>
+        <li><a href="climate.shtml">Climate</a></li>
+        <li><a href="landmarks.shtml">Landmarks</a></li>
+        <li><a href="residents.shtml">Famous Residents</a></li>
+        <li><a href="food.shtml">Food</a></li>
+        <li><a href="facts.shtml">Interesting Facts</a></li>
+        <li><a href="resources.shtml">External sites</a></li>
+        <li><a href="bibliography.shtml">Bibliography</a></li>
+    </ul>
+</nav>
+
+  <h1>Other Resources About Chicago</h1>
+  <ul>
+    <li><a href="http://www.cityofchicago.org/"> City of Chicago - The City of Chicago's Official Site</a></li>
+    <li><a href="http://www.choosechicago.com/">Choose Chicago- Official Tourism Page Of the City of Chicago</a></li>
+    <li><a href="http://www.chicagohistory.org/">Chicago History Museum</a></li>
+    <li><a href="http://www.encyclopedia.chicagohistory.org">Encyclopedia of Chicago</a></li>
+  </ul>
+  <footer>&copy; Aidan Kahrs 2016
+<p><a id="grade" href="grade.shtml">Grading Page</a></p>
+<p>
+    <a id="home" href="../index.html"><img title="Homepage" src="assets/kahrs-2.png" alt="Web 2 Homepage"/></a>
+</p>
+</footer>
+
+  <script>setCurrent();</script>
+</body>
+</html>
