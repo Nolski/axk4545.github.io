@@ -10,25 +10,26 @@
 </head>
 <body>
   <nav>
+    <button id="menu" onclick="drop()">&#9776; Menu</button>
     <ul id="nav">
-        <li><a href="index.shtml">About</a></li>
-        <li><a href="history.shtml">History</a></li>
-        <li><a href="government.shtml">Government</a></li>
-        <li><a href="geography.shtml">Geography</a></li>
-        <li><a href="climate.shtml">Climate</a></li>
-        <li><a href="landmarks.shtml">Landmarks</a></li>
-        <li><a href="residents.shtml">Famous Residents</a></li>
-        <li><a href="food.shtml">Food</a></li>
-        <li><a href="facts.shtml">Interesting Facts</a></li>
-        <li><a href="resources.shtml">External sites</a></li>
-        <li><a href="bibliography.shtml">Bibliography</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="government.html">Government</a></li>
+        <li><a href="geography.html">Geography</a></li>
+        <li><a href="climate.html">Climate</a></li>
+        <li><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="residents.html">Famous Residents</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="facts.html">Interesting Facts</a></li>
+        <li><a href="resources.html">External sites</a></li>
+        <li><a href="bibliography.html">Bibliography</a></li>
     </ul>
 </nav>
-
+ 
   <h1>Chicago History</h1>
   <p>Chicago has a rich history as a hub of trade and commerce in the Midwest. Below is a timeline of some key events in the history of Chicago.</p>
   
-  <ul>
+  <ul class="history">
     <li><b>1784-1788:</b> Fur trader Jean Baptiste Point du Sable becomes the first permanent resident of the area that is now Chicago.</li>
     <li><b>1803:</b> The United States Army establishes Fort Dearborn at what is now the intersection of Wacker Drive and Michigan Avenue.
     The fort was burned by the Potowatami during the War of 1812.</li>
@@ -45,7 +46,7 @@
           <img src="assets/chicago-fire.jpg" alt="The Great Chicago Fire, October 9th 1871"/></a>
       <figcaption>The Great Chicago Fire, October 9th 1871</figcaption>
     </figure>
-  <ul>
+  <ul class="history">
     <li><b>1885:</b> As part of rebuilding after the fire, Chicago constructs the world's first skyscraper.</li>
     <li><b>May 4th, 1886:</b> In response to the deaths of two workers at a strike the day before, a demonstration is held in Haymarket Square. When police arrive to end the demonstration, a bomb is thrown killing 7 police officers and 4 civilians.</li>
     <li><b>June 21st, 1886:</b> 8 men stand trial for the Haymarket bombing deaths. All are convicted though none for throwing the bomb. 4 will be executed on November 11, 1887. Of the others two had their sentences changed to life in prison, one was sentenced to 15 years and the last committed suicide in jail.</li>
@@ -62,13 +63,25 @@
     <li><b>March 30th, 2003:</b> Mayor Daley orders the demolition of Meig's Field without authorization. Six Xs are bulldozed into the single runway stranding planes.</li>
     <li><b>May 16th, 2011:</b> Rahm Emanuel is sworn in as mayor.</li>
   </ul> 
-  <footer>&copy; Aidan Kahrs 2016
-<p><a id="grade" href="grade.shtml">Grading Page</a></p>
+  <footer>
+    <script type="text/javascript">
+      document.write('&copy;' );
+      document.write(' Aidan Kahrs');
+      document.write(new Date().getFullYear());
+    </script>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="//jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+<p><a id="grade" href="grade.html">Grading Page</a></p>
 <p>
     <a id="home" href="../index.html"><img title="Homepage" src="assets/kahrs-2.png" alt="Web 2 Homepage"/></a>
 </p>
 </footer>
-
+ 
   <script>setCurrent();</script>
 </body>
 </html>

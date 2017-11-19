@@ -14,7 +14,7 @@
     <body>
         <header>
     
-	Current Date: July 30, 2017  |   Server IP: 129.21.1.44    |   Your IP: 73.9.7.159
+    Current Date: July 30, 2017  |   Server IP: 129.21.1.44    |   Your IP: 73.9.7.159
 </header>
         <h1>Aidan's Web 1 Home Page</h1>
         <img id="banner" src="media/banner.png" alt="banner"/>
@@ -64,8 +64,12 @@
             <a href="homework/SSI_startup.shtml">SSI Demo</a> |
         <div id="footer">
             <footer>
-    &copy;  Aidan Kahrs
-</footer>
+                <script type="text/javascript">
+                    document.write('&copy;' );
+                    document.write(' Aidan Kahrs');
+                    document.write(new Date().getFullYear());
+                </script>
+            </footer>
         </div>
     </body>
 </html>
