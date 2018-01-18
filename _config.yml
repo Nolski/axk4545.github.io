@@ -1,0 +1,18 @@
+---
+title: Aidan Kahrs - axk4545
+baseurl: "/"
+desc: 'Github: https://github.com/axk4545 | Gitlab: https://git.ritlug.com/axk4545 | LinkedIn: https://www.linkedin.com/in/aidan-kahrs-17138bb0'
+about: I am a student in the Networking and Systems Administration program at Rochester Institute of Technology. I have a very strong and passionate interest in Linux and the free and open source software community. I have been using varying distributions of Linux for roughly 7 years. I am currently using Red Hat based Fedora Linux as a primary OS.
+image: axk4545.png
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+gems:
+- jekyll-paginate
+exclude:
+  - .jekyll-metadata
+  - README.md
+  - CNAME
+paginate: 5
+paginate_path: "/:num/"
+highlighter: rouge
+permalink: pretty

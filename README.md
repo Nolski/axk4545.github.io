@@ -1,2 +1,5 @@
-# axk4545.github.io
-My github pages site
+# Minimal Text
+
+Minimal Text is a clean and lightweight Jekyll Theme
+
+![screenshot](screenshot.jpg)
