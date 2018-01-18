@@ -7,7 +7,7 @@ tags:
 desc: This post documents the first flight activity from the RIT HFOSS course.
 layout: post
 ---
-	When I began the first flight activity, I already had a GitHub account. The account was established when I was in high school to hold code from my computer science courses. I also already had a registered IRC nick. My nick was created and registered about 2 or 3 years ago during a Software Freedom Day event at RIT. Below I will expand on the pieces of the activity that were new to me.
+When I began the first flight activity, I already had a GitHub account. The account was established when I was in high school to hold code from my computer science courses. I also already had a registered IRC nick. My nick was created and registered about 2 or 3 years ago during a Software Freedom Day event at RIT. Below I will expand on the pieces of the activity that were new to me.
 <!-- more -->
 My IRC nick was added to a bouncer administered by a [friend](https://blog.justinwflory.com/) as a way to retain IRC chat history and allow multiple clients to connect simultaneously. I use weechat as my IRC client on all of my Linux hosts. Of the activities in first flight I needed to complete the following:
 - establish a blog
